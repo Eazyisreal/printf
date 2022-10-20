@@ -1,11 +1,9 @@
 #include "main.h"
-
 /**
   *get_func - returns pointer to function.
   *@c: character to be used to find pointer function.
   *Return: pointer to function or NULL.
   */
-
 int (*get_func(char c))(va_list, int)
 {
 	func funcArr[] = {
