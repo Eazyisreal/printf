@@ -1,12 +1,10 @@
 #include "main.h"
-
 /**
   * print_rot13 - print 13th character from the input.
   * @list: argument list.
   * @length: length.
   * Return: numer of chars printed.
   */
-
 int print_rot13(va_list list, int length)
 {
 	int i, position;
