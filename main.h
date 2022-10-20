@@ -1,9 +1,7 @@
 #ifndef _MAIN_
 #define	_MAIN_
-
 #include <stdarg.h>
 #include <stdlib.h>
-
 /**
   *struct print_func - holds fromat specifiers and their functions.
   *@placeholder: char.
@@ -52,5 +50,4 @@ int print_b(va_list list, int length);
 int print_binary(unsigned int, int);
 
 int print_Str(va_list list, int length);
-
 #endif
