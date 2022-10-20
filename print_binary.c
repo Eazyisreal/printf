@@ -1,12 +1,10 @@
 #include "main.h"
-
 /**
   *print_b - check if argument is unsigned.
   *@list: list of arguments.
   *@length: number of chars printed.
   *Return: length;
   */
-
 int print_b(va_list list, int length)
 {
 	unsigned int n;
@@ -21,12 +19,10 @@ int print_b(va_list list, int length)
   * @len: length of characters printd.
   * Return: length.
   */
-
 int print_binary(unsigned int n, int len)
 {
 	/*count chars*/
-	if ((n / 2) != 0)
-	{
+	if ((n / 2) != 0)	{
 		print_binary(n / 2, len);
 	}
 
