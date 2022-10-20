@@ -1,12 +1,10 @@
 #include "main.h"
-
 /**
   * print_int - Prints number to std output
   * @list: List of arguments
   * @length: Length of string so far
   * Return: The new length of the string
   */
-
 int print_int(va_list list, int length)
 {
 	int n;
@@ -16,14 +14,12 @@ int print_int(va_list list, int length)
 	length = _putchar_int(n, length);
 	return (length);
 }
-
 /**
   * _putchar_int - prints integers
   * @n: Number
   * @length: Length of string so far
   * Return: The new length of the string
   */
-
 int _putchar_int(int n, int length)
 {
 	unsigned long num;
@@ -49,7 +45,6 @@ int _putchar_int(int n, int length)
   * @digits: The digits found in this base
   * Return: The length
   */
-
 int print_numbers(unsigned long n, unsigned int base, const char *digits)
 {
 	if (n >= base)
@@ -64,7 +59,6 @@ int print_numbers(unsigned long n, unsigned int base, const char *digits)
   *@base: base of number
   *Return: length;
   */
-
 unsigned int find_length(unsigned int n, int base)
 {
 	unsigned int count;
