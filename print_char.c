@@ -1,12 +1,10 @@
 #include "main.h"
-
 /**
  * print_char - print input in character format
  * @list: argument list
  * @length: length of input
  * Return: length
  */
-
 int print_char(va_list list, int length)
 {
 	char c = va_arg(list, int);
@@ -21,7 +19,6 @@ int print_char(va_list list, int length)
  * @length: length of input
  * Return: length
  */
-
 int print_str(va_list list, int length)
 {
 	int i;
@@ -36,14 +33,12 @@ int print_str(va_list list, int length)
 	}
 	return (length);
 }
-
 /**
  * print_rev - prints string reverse to stdout
  * @list: argument list
  * @length: string length
  * Return: length
  */
-
 int print_rev(va_list list, int length)
 {
 	int i, j, str_len = 0;
