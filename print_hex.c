@@ -1,12 +1,10 @@
 #include "main.h"
-
 /**
  * print_hex - Prints hex notation of a number
  * @list: List of arguments
  * @length: Current length of string
  * Return: The length
  */
-
 int print_hex(va_list list, int length)
 {
 	unsigned int n = va_arg(list, unsigned int);
